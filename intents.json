@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Is anyone there?",
+        "What's up"
+      ],
+      "responses": [
+        "Hello 👋",
+        "Hi there, how can I help you?",
+        "Hey! Nice to see you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I am leaving",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye 👋",
+        "See you soon!",
+        "Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome 😊",
+        "No problem!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name"
+      ],
+      "responses": [
+        "I am your AI assistant 🤖",
+        "You can call me Jarvis."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Tell me the time",
+        "Current time please"
+      ],
+      "responses": [
+        "Let me check the time for you.",
+        "Here is the current time."
+      ]
+    },
+    {
+      "tag": "date",
+      "patterns": [
+        "What is today's date?",
+        "Tell me the date",
+        "Current date"
+      ],
+      "responses": [
+        "Here is today's date.",
+        "Let me tell you the date."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Funny joke"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs 😄",
+        "I would tell you a UDP joke… but you might not get it."
+      ]
+    }
+  ]
+}
